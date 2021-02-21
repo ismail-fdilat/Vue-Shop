@@ -1,5 +1,16 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="About">
+    <Navbar></Navbar>
+    About page
+    <Authentication></Authentication>
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+
+export default {
+  name: "Home",
+  components: {}
+};
+</script>
